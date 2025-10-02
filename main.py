@@ -4,8 +4,8 @@ from datetime import datetime
 import icem_utils as utils
 from agent import Agent
 from dotmap import DotMap
-from fake_env import FakeEnv
-from gym_env import GymEnv
+from environments.fake_env import FakeEnv
+from environments.gym_env import GymEnv
 from icem import Icem
 from mbop import MBOP
 import numpy as np
