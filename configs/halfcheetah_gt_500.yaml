@@ -1,0 +1,8 @@
+env: "HalfCheetah-v3"
+default_config: "configs/default_gt.yaml"
+max_timesteps: 1000
+population_size: 150
+n_iterations: 5
+planning_horizon: 30
+beta: 0.25
+reward_module: "reward_functions/halfcheetah.py"

@@ -1,0 +1,33 @@
+env: "HalfCheetah-v3"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+population_size: 500
+n_iterations: 5
+planning_horizon: 20
+beta: 0.25
+reward_module: "reward_functions/halfcheetah.py"
+pessimism_coef: 20
+penalty: 30
+ensemble_size: 4
+fit_epochs: 100
+fn: "v_fn"
+
+# no vf, h=20, t=100: 398
+# no vf, h=10, t=100: 198
+# q_fn, h=10, t=100: 236
+# q_fn, h=20, t=100: 381
+
+# no vf, h=10, t=1000: 1130
+# q_fn, h=10, t=1000: 1520
+
+# no vf, pets = 630
+# no vf, h=20, pets = 5800
+# q_fn, pets = 2380
+# q_fn, h=20, pets = 7300
+
+# expert
+# no vf pets = 7730
+# v_fn new pets = 6780
+# q_fn new pets = 6780
+
+# threshold pc=20: 0.382225

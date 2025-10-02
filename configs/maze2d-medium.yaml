@@ -1,0 +1,12 @@
+env: "maze2d-medium-v1"
+default_config: "configs/default.yaml"
+max_timesteps: 600
+population_size: 1000
+n_iterations: 5
+planning_horizon: 100
+beta: 2.0
+reward_module: "reward_functions/maze2d.py"
+model: "models/d4rl_maze2d_medium_v1_scheduler_123.pickle"
+dataset: "datasets/d4rl_maze2d_medium_v1.pickle"
+pessimism_coef: 50
+penalty: 10

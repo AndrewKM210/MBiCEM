@@ -1,0 +1,11 @@
+env: "HalfCheetah-v3"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+elite_size: 50
+population_size: 500
+n_iterations: 5
+planning_horizon: 20
+beta: 0.25
+reward_module: "reward_functions/halfcheetah.py"
+pessimism_coef: 15
+penalty: 50

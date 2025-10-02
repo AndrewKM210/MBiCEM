@@ -1,0 +1,14 @@
+env: "Walker2d-v2"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+population_size: 500
+n_iterations: 5
+elite_size: 50
+planning_horizon: 20
+beta: 1
+reward_module: "reward_functions/walker.py"
+pessimism_coef: 20
+penalty: 50
+ensemble_size: 4
+fit_epochs: 100
+fn: "v_fn"

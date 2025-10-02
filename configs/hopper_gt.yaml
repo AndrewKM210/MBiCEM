@@ -1,0 +1,13 @@
+env: "Hopper-v3"
+default_config: "configs/default_gt.yaml"
+max_timesteps: 1000
+# population_size: 150
+# n_iterations: 5
+# planning_horizon: 200
+population_size: 100
+n_iterations: 4
+planning_horizon: 8
+# elite_size: 1
+# beta: 0.5
+beta: 0.25
+reward_module: "reward_functions/hopper.py"

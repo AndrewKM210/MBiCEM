@@ -1,0 +1,12 @@
+env: "Ant-v2"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+population_size: 2000
+n_iterations: 3
+planning_horizon: 20
+beta: 0.25
+reward_module: "reward_functions/ant.py"
+dataset: "../morel/datasets/brac_ant_v02av02_nocontact_norepeat_vel_123.pickle"
+model: "../morel/models/brac_ant_v02av02_nocontact_norepeat_vel_scheduler_123.pickle"
+pessimism_coef: 5
+penalty: 30

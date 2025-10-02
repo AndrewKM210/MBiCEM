@@ -1,0 +1,11 @@
+env: "Hopper-v3"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+population_size: 100
+planning_horizon: 10
+sigma_init: 0.01
+beta: 0.25
+reward_module: "reward_functions/hopper.py"
+alg: "alg_mbop"
+pessimism_coef: 50
+penalty: 30

@@ -1,0 +1,8 @@
+env: "maze2d-large-v1"
+default_config: "configs/default_gt.yaml"
+max_timesteps: 800
+population_size: 40
+n_iterations: 3
+planning_horizon: 200
+beta: 2.0
+reward_module: "reward_functions/maze2d.py"

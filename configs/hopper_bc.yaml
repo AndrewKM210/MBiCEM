@@ -1,0 +1,5 @@
+env: "Hopper-v3"
+max_timesteps: 1000
+default_config: "configs/default_gt.yaml"
+reward_module: "reward_functions/hopper.py"
+alg: "alg_bc"

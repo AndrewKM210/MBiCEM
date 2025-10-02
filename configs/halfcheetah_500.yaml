@@ -1,0 +1,12 @@
+env: "HalfCheetah-v3"
+default_config: "configs/default.yaml"
+max_timesteps: 1000
+population_size: 150
+n_iterations: 5
+planning_horizon: 20
+beta: 0.25
+reward_module: "reward_functions/halfcheetah.py"
+dataset: "datasets/d4rl_halfcheetah_medium_expert_v0_v02av02.pickle"
+model: "models/d4rl_halfcheetah_medium_expert_v0_v02av02_500_exponentiallr_7x4x512_123.pickle"
+pessimism_coef: 15
+penalty: 30

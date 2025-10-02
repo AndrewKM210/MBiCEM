@@ -1,0 +1,10 @@
+n_episodes: 10
+learning_rate: 0.1
+elite_frac: 0.3
+elite_size: 10
+sigma_init: 0.5
+gamma: 0.99
+icem: True
+seed: 123
+ground_truth: True
+alg: "alg_icem"
