@@ -160,7 +160,7 @@ if __name__ == "__main__":
     parser.add_argument("--simulation", type=str, choices=["all", "individual"], help="how rollouts are simulated")
     parser.add_argument("--log_dir", type=str, default="logs", help="directory where log should be saved")
     parser.add_argument("--log_name", type=str, default="test", help="name of log")
-    parser.add_argument("--alg", type=str, choices=[ALG_ICEM, ALG_MBOP, ALG_BC], help="iCEM or MBOP algorithm")
+    parser.add_argument("--alg", type=str, default=ALG_ICEM, choices=[ALG_ICEM, ALG_MBOP, ALG_BC], help="iCEM or MBOP algorithm")
     args = parser.parse_args()
     if args.threshold == 0:
         args.threshold = np.inf
