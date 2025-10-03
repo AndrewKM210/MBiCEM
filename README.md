@@ -3,7 +3,11 @@
 This repository contains the implementation of my MSc thesis work on model-based trajectory planning and reinforcement learning.
 The project explores applying trajectory planning using learned models of the environment dynamics. The main algorithm tested is [iCEM](https://martius-lab.github.io/iCEM/). The models are represented as an ensemble of neural networks, the implementation of these ensembles can be found [here](https://github.com/AndrewKM210/dynamics-ensembles-rl). To deal with the uncertainty about the accuracy of the model, predictions that lead to high ensemble disagreement are heavily penalized. The use of value functions and a behavior cloned policy to improve performance is explored.
 
-![alt](assets/iCEM.png)
+<!-- ![alt](assets/iCEM.png) -->
+<p align="center">
+  <img src="assets/iCEM.png" alt="MBiCEM diagram" width="700"/>
+</p>
+
 
 # Project Overview
 
