@@ -84,7 +84,14 @@ python main.py --config configs/halfcheetah_bc.yaml --dataset datasets/halfcheet
 
 # Example Results
 
-TODO
+The ```visualize.ipynb``` notebook contains the code necessary for plotting the return or cumulative reward from the logs. This example shows how penalizing predictions that contain high ensemble disagreement lead to better returns.
+
+![returns](assets/return.png)
+
+# TODO
+
+- More visualization
+- Track with MLflow
 
 # References
 
