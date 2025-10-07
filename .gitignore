@@ -1,1 +1,4 @@
 learn_models/
+__pycache__
+datasets/
+models/
